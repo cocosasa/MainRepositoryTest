@@ -1,0 +1,37 @@
+.fieldset {
+  width: 100%;
+
+  padding: 25px 50px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+
+  border-bottom: 1px solid #ccc;
+}
+
+.selectList {
+  width: calc(50vw - 120px);
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.selectButton {
+  padding: 8px 12px;
+
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.selected {
+  background-color: #aaa;
+  color: #fff;
+}
+
+.description {
+  color: #777;
+  font-size: 12px;
+  font-weight: 400;
+}

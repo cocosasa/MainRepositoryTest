@@ -1,0 +1,60 @@
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.settingSection {
+  width: 50vw;
+  height: calc(100vh - 70px);
+
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.refreshButton {
+  width: 28px;
+  height: 28px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: absolute;
+
+  background-color: #993c66;
+  border-radius: 7px;
+
+  top: 20px;
+  right: 22px;
+}
+
+.refreshButton>svg {
+  width: 28px;
+  height: 28px;
+
+  padding: 3px;
+
+  color: #fff;
+}
+
+.refreshButton>svg:hover {
+  animation: rotate 1s ease;
+}
+
+.chartWrapper {
+  width: 100%;
+
+  /* padding: 6px 0 12px; */
+
+  background-color: #fff;
+
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap');
+
+.warpper {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main{
+  width: 100vw;
+
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.section {
+  background-color: white;
+
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  margin-top: 6%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+}
+
+.logo {
+  width: 43%;
+  margin-bottom: 3%;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+.linkunit {
+  display: flex;
+  width: 30%;
+  margin-left: 3%;
+  margin-right: 6%;
+}
+
+
+@keyframes twinkle {
+  0% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(1.2);
+  }
+}
+
+.linkItemo {
+  width: 55%;
+  height: auto;
+  margin: auto;
+  margin-top: 10%;
+}
+
+/* .linkItemo:hover {
+  animation-name: twinkle;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+} */
+
+.linkItemt {
+ width: 60%;
+ height: auto;
+ margin: auto;
+}
+
+/* .linkItemt:hover {
+  animation-name: twinkle;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+} */
+
+
+.imgChart {
+  margin-top: 9%;
+  position: relative;
+  width: 100%;
+  margin-left: 1.4%;
+  
+}
+
+.piepie {
+  width: 70%;
+}
+
+.quarterpie {
+  width: 45%;
+  height: 45%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.titletext {
+  width: 35%;
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
+
+.footer {
+  height: 80px;
+
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+
+.footer > p {
+  color: #777;
+}

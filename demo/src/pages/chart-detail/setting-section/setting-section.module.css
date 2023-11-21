@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap');
+
+.settingSection {
+  width: 50vw;
+  height: calc(100vh - 70px);
+
+  overflow-y: auto;
+}
+
+.settingSection::-webkit-scrollbar {
+  width: 8px;
+  background-color: #eee;
+}
+
+.settingSection::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.settingSection::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 10px;
+  background-clip: padding-box;
+}
+
+.settingSection::-webkit-scrollbar-button {
+  width: 0;
+  height: 0;
+}
+
+.settingList {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+  position: relative;
+}
+
+.settingList>li {
+  width: 100%;
+}
+
+.settingTitleListItem {
+  position: sticky;
+  top: 0px;
+
+  z-index: 1000;
+  overflow-x: hidden;
+}
+
+.settingTitleWrapper {
+  width: 100vw;
+  height: 50px;
+
+  display: flex;
+  align-items: center;
+
+  background-image: linear-gradient(to right, #763e96, #993c66);
+}
+
+.settingTitle {
+  margin-left: 50px;
+
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: 'Open Sans', sans-serif;
+}
